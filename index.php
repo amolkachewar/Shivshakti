@@ -31,6 +31,9 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
 	#header .logo {		  
 		   margin-bottom: -40px;
@@ -54,22 +57,24 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top topbar-transparent" style="background-color:cornflowerblue;height: 24px ;">
-    <div class="container d-flex justify-content-end">
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-      </div>
+  <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top topbar-transparent" style="background-color:cornflowerblue;height: 24px;">
+    <div class="container d-flex justify-content-end">		
+		<div class="social-links">
+			<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+			<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+			<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+			<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+		</div>	  
     </div>
   </div>
 
   <!-- ======= Header ======= -->
 
- <header id="header" class="fixed-top header-transparent" style="background-color:white;font-color:black; height:160 width:1000">
+ <header id="header" class="fixed-top header-transparent" style="background-color:white;">
+
+
   	<div class="container d-flex align-items-center">
-    <h1 class="logo mr-auto"><a href="index.html"><img src="abcd.png" alt="Logo" width="100" height="100" img-right; ></a></h1><br>
+    <h1 class="logo mr-auto"><a href="index.php"><img src="abcd.png" alt="Logo" width="100" height="100" img-right; ></a></h1><br>
 
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -116,7 +121,7 @@
          <li class="drop-down"><b><a href="place.php"><strong>Placement</strong></a></b>
          <ul>
                <li><a href="#">Job Portal</a></li>
-               <li><a href="#">Placement Methodology</a></li>
+               <li><a href="placement_methodology.php">Placement Methodology</a></li>
                <li><a href="#">Placement Drive</a></li>
                <li><a href="#">Placement Report</a></li>
                <li><a href="#">Current Opportunity</a></li>
@@ -125,7 +130,7 @@
        <!--   <li><a href="#placement">Placement</a></li>-->
           <li class="drop-down"><b><a href="#Resource"><strong>Resource</strong></a></b>
           <ul>
-               <li><a href="#">Gallery</a></li>
+               <li><a href="gallery.php">Gallery</a></li>
               <li><a href="#">News articles</a></li>
               <li><a href="#">FCRA updates</a></li>
               <li><a href="#">Newsletter</a></li>
@@ -136,7 +141,7 @@
               <li><a href="#">Objective</a></li>
            </ul></li>
          <!-- <li><a href="Contact">Contact</a></li>-->
-          <li class="active"><a href="conta--1.html"><strong>Contact</strong></a></li>
+          <li class="active"><a href="contact.php"><strong>Contact</strong></a></li>
           <li class="drop-down"><b><a href="CSR Partnership"><strong>CSR Partnership</strong></a></b>
             <ul>
                <li><a href="#">Our Partner</a></li>
@@ -145,45 +150,76 @@
               <li><a href="#">Payroll giving</a></li>
                <li><a href="#">Employee Volunteering</a></li>
            </ul></li>
-
-
-          <!--<li><a href="Donate">Donate</a></li>
+              <!--<li><a href="Donate">Donate</a></li>
           <li><a href="Login">Login</a></li>-->
-         
-                 
-        </ul>
+           </ul>
       </nav><!-- .main-nav-->
 
     </div><br>
     <br>
+
+	 
   </header><!-- End Header -->
 
   <!-- ======= Hero Section =======  -->
     
-  <section id="hero" class="clearfix" style="background-image:url('edu.jpg');">
-      <div class="container d-flex h-100">
-      <div class="row justify-content-center align-self-center" data-aos="fade-up">
-         <div class="col-md-6 intro-info order-md-first order-last" data-aos="zoom-in" data-aos-delay="100">
-        	<br><!--<img src="bg123.jpg"; alt="bagcolor" width="500" height="300">-->
-          <h2> <b>this is new text<span>Society!</span></b></h2>
-          <div>         
-       <a href="#about" class="btn-get-started scrollto">Get Started</a>
+  <section id="hero" class="clearfix"> <!--style="background-image:url('edu.jpg');" --> 
 
-       </div>
-        </div>
+	   <!--<div class="container d-flex h-100"> -->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+				  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				  <li data-target="#myCarousel" data-slide-to="1"></li>
+				  <li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
 
-        <div class="col-md-6 intro-img order-md-last order-first" data-aos="zoom-out" data-aos-delay="200">
-        	 
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+				  <div class="item active">
+					<img src="images/maxresdefault.jpg" alt="PMKVY" style="width:100%;height:auto;">
+				  </div> 
+				  <div class="item">
+					<img src="slide2.png" alt="slider1" style="width:100%;height:auto;">
+				  </div>     
+				  <div class="item">
+					<img src="slide1.png" alt="slider2" style="width:100%;height:auto;">
+				  </div>
+				</div>
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				  <span class="glyphicon glyphicon-chevron-left"></span>
+				  <span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				  <span class="glyphicon glyphicon-chevron-right"></span>
+				  <span class="sr-only">Next</span>
+				</a>
+			</div>
+		<!--</div>-->
 
-    </div> 
+		<!--<div class="container d-flex h-100">
+			<div class="row justify-content-center align-self-center" data-aos="fade-up">
+				<div class="col-md-6 intro-info order-md-first order-last" data-aos="zoom-in" data-aos-delay="100">					
+					<h2> <b> Shree Shivshakti Education <span>Society!</span></b></h2>
+					<div>         
+						<a href="#about" class="btn-get-started scrollto">Get Started</a>
+					</div>
+				</div>
+			
+				<div class="col-md-6 intro-img order-md-last order-first" data-aos="zoom-out" data-aos-delay="200">
+				</div> 
+			</div>	
+		</div>-->	
   </section>
   <!-- End Hero -->
 
   <main id="main">
 
     <!-- ======= About Section ======= -->
+   <form>
     <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
+      <div class="container" data-aos="fade-up">
         <div class="row">
 
           <div class="col-lg-5 col-md-6">
@@ -191,26 +227,26 @@
               <img src="skill.jpg" width="400" height="400">
 
             </div>
-          </div>
-
+          </div><meta name="viewport" content="width=device-width, initial-scale=1">
           <div class="col-lg-7 col-md-6">
             <div class="about-content" data-aos="fade-left" data-aos-delay="100">
              <h2><b><u>About Us :</u></b></h2>
               <p><b>Shri Shiv Shakti Education Society (SSSES)</b>, founded in 1982, is a non-profit organisation dedicated to Education, sustainable livelihoods, Empowerment and Enlightenment of youth through knowledge, innovation and transformative actions. Our passion is to bring about solutions at a scale that eliminate inequities and marginalization and poverty.</p>
 
               <p>Our core competence is End to End solution from providing excellence education to get the employment. towards this, we develop market-based models of development building on community strengths and involved in the field of training, capacity building of youth, mobilization of community, women empowerment, CSR, Awareness progress. SSSES has achieved the prestigious opportunity to work with ministry of finance, Skill development & Entreprenourship and GoI.</p>
-
-              <p>SSSES has active in 18 state and UT's have successfully established our presence within the states through various programms and projects. As one of the leading NGOs in the Education sector in India that works for transforming youth to empower nation. we strongly believe that the nation’s strength and future lies in the hands of its youth. Unlike the developed countries where 90% youth opt for some or the other sort of vocational training, less than 5% undergo vocational training in our country despite the fact that India is a country with the largest youth population.</p>
-             
+               
+            <!-- <p> <span id= "more"> SSSES has active in 18 state and UT's have successfully established our presence within the states through various programms and projects. As one of the leading NGOs in the Education sector in India that works for transforming youth to empower nation. we strongly believe that the nation’s strength and future lies in the hands of its youth. Unlike the developed countries where 90% youth opt for some or the other sort of vocational training, less than 5% undergo vocational training in our country despite the fact that India is a country with the largest youth population.</span></p>-->
+             <button> <a href="http://localhost/project/ShriShiv-ShaktiEdu111/aboutus.php">Read more</a></button>
             </div>
+
           </div>
         </div>
       </div>
-    
+  
     </section>
-
-
-    <!-- End About Section -->
+  </form>
+ 
+  <!-- End About Section -->
 
     <!-- ======= Services Section ======= -->
     <section id=" Our Projects" class="projects section-bg">
@@ -285,7 +321,10 @@
 
           <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="why-us-img">
-              <img src="assets/img/why-us.jpg" alt="" class="img-fluid">
+              <img src="assets/img/why-us.jpg" alt="" class="img-fluid" height="700" width="1000"><br>
+
+
+              <img src="interactiveclass.jpg" alt="" class="img-fluid" height="700" width="1000">
 
             </div>
           </div>
@@ -293,37 +332,35 @@
           <div class="col-lg-6">
             <div class="why-us-content">
               <p><b>We Provide training on skills.<b></p>
-     
-               <p> We "Shree Shivshakti Education Society" work with Pmkvy (pradhan mantri) as a Training Partner.
+                <p> We "Shree Shivshakti Education Society" work with Pmkvy (pradhan mantri) as a Training Partner.
                 <u> Pradhan Mantri Kaushal Vikas yojana </u>is a skill development initiative scheme 
                 of the Government of India for recognition and standardisation of skills.
                </p>
-
-              <div class="features clearfix" data-aos="fade-up" data-aos-delay="100">
+                <div class="features clearfix" data-aos="fade-up" data-aos-delay="100">
                 <i class="fa fa-chevron-down" style="color:red;"></i>
                 <h4><b>Good Teaching Staff</b></h4>
               
-                <p>Every person has the right to access safe, quality education.</p>
-                <p>we have an good teaching staff. Specially We focus on quality. </p>
-                <p>Our Educational Society provide various training skills.</p>
-                <p></p>
+                <p>Every person has the right to access safe, quality education.<br>
+                we have an good teaching staff. Specially We focus on quality. <br>
+                Our Educational Society provide various training skills.<br>
+                </p>
               </div>
-
               <div class="features clearfix" data-aos="fade-up" data-aos-delay="200">
                 <i class="fa fa-chevron-down" style="color:red;"></i>
                 <h4><b>Interacive Classes </b></h4>
-                <p>We conduct interactive classes.</p>
-                <p>In this we focus on "How much the student get knowledge from our teaching".</p>
-                <p>For that we take various activity task. </p>
+                <p>We conduct interactive classes.<br>
+                In this we focus on "How much the student get knowledge from our teaching".<br>
+                For that we take various activity task.<br> 
+              </p>
               </div>
-
-              <div class="features clearfix" data-aos="fade-up" data-aos-delay="300">
+               <div class="features clearfix" data-aos="fade-up" data-aos-delay="300">
                 <i class="fa fa-chevron-down" style="color:red;"></i>
                 <h4><b>Job Oriented Skills</b></h4>
-                <p>We provide Job Oriented Skills.</p> 
-                <p>we provide the platform where student grab the opportunity to learn new skill
-                 as well as get job in their field. </p>
-                <p>This is the main Aim of this Society.</p>
+                <p>We provide Job Oriented Skills.<br>
+                we provide the platform where student grab the opportunity to learn new skill<br>
+                 as well as get job in their field. <br>
+                This is the main Aim of this Society.<br>
+              </p>
               </div>
 
             </div>
