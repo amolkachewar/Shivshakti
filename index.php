@@ -165,7 +165,7 @@
       <div class="row justify-content-center align-self-center" data-aos="fade-up">
          <div class="col-md-6 intro-info order-md-first order-last" data-aos="zoom-in" data-aos-delay="100">
         	<br><!--<img src="bg123.jpg"; alt="bagcolor" width="500" height="300">-->
-          <h2> <b> Shree Shivshakti Education <span>Society!</span></b></h2>
+          <h2> <b>this is new text<span>Society!</span></b></h2>
           <div>         
        <a href="#about" class="btn-get-started scrollto">Get Started</a>
 
