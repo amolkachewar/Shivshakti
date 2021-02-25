@@ -36,13 +36,26 @@
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
 	#header .logo {		  
-		   margin-bottom: -40px;
+		   margin-bottom: -35px;
 		}
 		.main-nav > ul > li{
 			padding-top:45px;
 		}
 		.section-bg {
 		  background:lightblue;
+		}
+		#hero{
+			height: 700px !important;
+		}
+		#hero img{
+			padding-top:100px !important;
+			height:700px !important;
+		}
+		#topbar a{
+			color:#ffffff !important;
+		}
+		.header-scrolled{
+			top:-20px !important;
 		}
   </style>
 </head>
@@ -57,9 +70,13 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top topbar-transparent" style="background-color:cornflowerblue;height: 24px;">
-    <div class="container d-flex justify-content-end">		
-		<div class="social-links">
+  <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top topbar-transparent" style="background-image:url('images/banner2.gif') !important;height: 24px;">
+    <div class="container">	
+		<div class="contact" style="float:left;">
+			<a href="tel:+0712-2705331"><i class="fa fa-phone" aria-hidden="true"> 0712-2705331</i></a>      
+			<a href="mailto:info@shivshaktiedu.org"><i class="fa fa-envelope" aria-hidden="true" style="padding-left:10px;"> info@shivshaktiedu.org</i></a> 
+		</div>
+		<div class="social-links" style="float:right;">
 			<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
 			<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
 			<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
@@ -70,7 +87,7 @@
 
   <!-- ======= Header ======= -->
 
- <header id="header" class="fixed-top header-transparent" style="background-color:white;">
+ <header id="header" class="fixed-top header-transparent" style="background-color:#ffffff;">
 
 
   	<div class="container d-flex align-items-center">
@@ -86,7 +103,7 @@
          <li class="drop-down"><b><a href="#projects">projects</a></b>
             <ul>
                 <!--  <li><a href="#">Skill development</a></li>-->
-                  <li class="drop-down"><b><a href="#Skill development"><strong>Skill development</strong></a></b>
+                  <li class="drop-down"><b><a href="skill_development.php"><strong>Skill development</strong></a></b>
                      <ul>
                       <li><a href="#">PMKVY</a></li>
                       <li><a href="#">RPL</a></li>
@@ -97,11 +114,11 @@
                       <li><a href="#">NULM</a></li>
                       <li><a href="#">NSQF</a></li>
                     </ul></li>
-                  <li><a href="#">Vocational and Educational Training</a></li>
+                  <li><a href="vocation.php">Vocational and Educational Training</a></li>
                   <li><a href="#">School and college skilling program</a></li>
                   <li><a href="#">Corporate Training</a></li>
-                  <li><a href="#">CSR Project</a></li>
-                  <li><a href="#">Competative Exam and Preparation</a></li>
+                  <li><a href="csr_project.php">CSR Project</a></li>
+                  <li><a href="competative_pre.php">Competative Exam and Preparation</a></li>
                   <li><a href="#">Carrier Guidance Center</a></li>
  
               </ul>
@@ -135,7 +152,7 @@
               <li><a href="#">FCRA updates</a></li>
               <li><a href="#">Newsletter</a></li>
            </ul></li>
-          <li class="drop-down"><b><a href="aboutus.php"><strong>About Us</strong></a></b>
+          <li class="drop-down"><b><a href="about-us.php"><strong>About Us</strong></a></b>
            <ul>
                <li><a href="#">Organization</a></li>
               <li><a href="#">Objective</a></li>
@@ -176,9 +193,12 @@
 
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner">
-				  <div class="item active">
-					<img src="images/maxresdefault.jpg" alt="PMKVY" style="width:100%;height:auto;">
-				  </div> 
+				   <div class="item active">
+					<img src="images/slider4.jpg" alt="PMKVY" style="width:100%;height:auto;">
+				  </div> 	
+				  <!--<div class="item active">
+					<img src="images/slider3.jpg" alt="PMKVY" style="width:100%;height:auto;">
+				  </div> -->
 				  <div class="item">
 					<img src="slide2.png" alt="slider1" style="width:100%;height:auto;">
 				  </div>     
@@ -309,7 +329,7 @@
     </section>--><!-- End Services Section -->
 
     <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
+    <section id="why-us" class="why-us" style="background-image:url('images/banner1.gif') !important;background-repeat: no-repeat;background-size:100% 100%;">
       <div class="container-fluid" data-aos="fade-up">
 
         <header class="section-header">
@@ -754,7 +774,7 @@
     </section><!-- End Team Section -->
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
+    <section id="clients" class="clients" style="background-image:url('images/banner2.gif');">
       <div class="container" data-aos="zoom-in">
 
         <header class="section-header">
@@ -968,11 +988,12 @@
                 <div class="footer-links">
                   <h4>Contact Us</h4>
                   <p>
-                    A108 Adam Street <br>
-                    New York, NY 535022<br>
-                    United States <br>
-                    <strong>Phone:</strong> +1 5589 55488 55<br>
-                    <strong>Email:</strong> info@example.com<br>
+                     <i class="fa fa-map-marker" aria-hidden="true"><Strong> Address: </strong></i>
+						Plot No.5, Ladikar Layout, <br>
+						Manewada Road, <br>
+						Nagpur- 440024 MH.<br>
+					<i class="fa fa-phone" aria-hidden="true"><strong> Phone: </strong></i><a href="tel:+0712-2705331"> 0712-2705331</a><br>
+                    <i class="fa fa-envelope" aria-hidden="true"><strong> Email: </strong></i> <a href="mailto:info@shivshaktiedu.org"> info@shivshaktiedu.org</a><br>
                   </p>
                 </div>
 

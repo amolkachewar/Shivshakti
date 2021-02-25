@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar.topbar-transparent {
-  background: cornflowerblue !important;
+  background-image:url('images/banner2.gif') !important;
 }
 
 #topbar.topbar-scrolled {
@@ -1641,3 +1641,4 @@ section {
 #footer .credits a:hover {
   color: #0a98c0;
 }
+
