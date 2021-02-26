@@ -1,5 +1,4 @@
-
-  <!-- =======================================================
+ <!-- =======================================================
   * Template Name: Shri 
   * Template URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
   * Author: BootstrapMade.com
@@ -72,23 +71,25 @@
 		</div>	  
     </div>
   </div>
+<!-- ======= Header ======= -->
 
-  <!-- ======= Header ======= -->
-
- <header id="header" class="fixed-top header-transparent" style="background-color:#ffffff;">
+ <header id="header" class="fixed-top header-transparent" style="background-color:white;font-color:black; height:160 width:1000">
 
 
   	<div class="container d-flex align-items-center">
     <h1 class="logo mr-auto"><a href="index.php"><img src="images/abcd.png" alt="Logo" width="100" height="100" img-right; ></a></h1><br>
+
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+  
+
       <nav class="main-nav d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.php"><strong>Home</strong></a></li>
-          <li class="drop-down"><b><a href="#projects">projects</a></b>
+         <li class="drop-down"><b><a href="#projects">projects</a></b>
             <ul>
                 <!--  <li><a href="#">Skill development</a></li>-->
-                  <li class="drop-down"><b><a href="skill_development.php"><strong>Skill development</strong></a></b>
+                  <li class="drop-down"><b><a href="#Skill development"><strong>Skill development</strong></a></b>
                      <ul>
                       <li><a href="#">PMKVY</a></li>
                       <li><a href="#">RPL</a></li>
@@ -99,15 +100,25 @@
                       <li><a href="#">NULM</a></li>
                       <li><a href="#">NSQF</a></li>
                     </ul></li>
-                  <li><a href="vocation.php">Vocational and Educational Training</a></li>
+                  <li><a href="#">Vocational and Educational Training</a></li>
                   <li><a href="#">School and college skilling program</a></li>
                   <li><a href="#">Corporate Training</a></li>
-                  <li><a href="csr_project.php">CSR Project</a></li>
-                  <li><a href="competative_pre.php">Competative Exam and Preparation</a></li>
+                  <li><a href="#">CSR Project</a></li>
+                  <li><a href="#">Competative Exam and Preparation</a></li>
                   <li><a href="#">Carrier Guidance Center</a></li>
  
               </ul>
-         </li>      
+         </li>
+         
+       <!--<form>     <label for="project"><b> project:</b></label>
+  <select name="project" id="projects">
+    <option value="vds">pro1</option>
+    <option value="saab">pro2</option>
+    <option value="opel">pro3</option>
+    <option value="audi">pro4</option>
+  </select>
+  <br><br>
+         </form>-->
         <li class="active"><a href="#Placement Tracking"><strong>Placement Tracking</strong></a></li>
       <!--  <li class="active"><a href="place.html">placement</a></li>-->
          <li class="drop-down"><b><a href="place.php"><strong>Placement</strong></a></b>
@@ -127,10 +138,10 @@
               <li><a href="#">FCRA updates</a></li>
               <li><a href="#">Newsletter</a></li>
            </ul></li>
-          <li class="drop-down"><b><a href="about-us.php"><strong>About Us</strong></a></b>
+          <li class="drop-down"><b><a href="aboutus.php"><strong>About Us</strong></a></b>
            <ul>
-               <li><a href="#">Organization</a></li>
-              <li><a href="#">Objective</a></li>
+               <li><a href="index.php">Organization</a></li>
+              <li><a href="index.php">Objective</a></li>
            </ul></li>
          <!-- <li><a href="Contact">Contact</a></li>-->
           <li class="active"><a href="contact.php"><strong>Contact</strong></a></li>
@@ -149,6 +160,13 @@
 
     </div><br>
     <br>
+    <script>
+		var _b = document.getElementsByTagName('base')[0], _bH = "index.php";
+		if (_b && _b.href != _bH) _b.href = _bH;
+		</script>
 
-	 
-  </header><!-- End Header -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </header>
+  <!-- End Header -->

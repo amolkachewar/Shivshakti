@@ -1,10 +1,6 @@
- 
 
-
-<doctype html>
-  <html>
-<body>
- <footer id="footer" class="section-bg">
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="section-bg">
     <div class="footer-top">
       <div class="container">
 
@@ -46,11 +42,12 @@
                 <div class="footer-links">
                   <h4>Contact Us</h4>
                   <p>
-                    A108 Adam Street <br>
-                    New York, NY 535022<br>
-                    United States <br>
-                    <strong>Phone:</strong> +1 5589 55488 55<br>
-                    <strong>Email:</strong> info@example.com<br>
+                     <i class="fa fa-map-marker" aria-hidden="true"><Strong> Address: </strong></i>
+						Plot No.5, Ladikar Layout, <br>
+						Manewada Road, <br>
+						Nagpur- 440024 MH.<br>
+					<i class="fa fa-phone" aria-hidden="true"><strong> Phone: </strong></i><a href="tel:+0712-2705331"> 0712-2705331</a><br>
+                    <i class="fa fa-envelope" aria-hidden="true"><strong> Email: </strong></i> <a href="mailto:info@shivshaktiedu.org"> info@shivshaktiedu.org</a><br>
                   </p>
                 </div>
 
@@ -121,7 +118,7 @@
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
       -->
-        Designed by <a href="https://bootstrapmade.com/">Shri Shiv Shakti Education</a>
+        Designed by <a href="#">Shri Shiv Shakti Education</a>
       </div>
     </div>
   </footer><!-- End  Footer -->
