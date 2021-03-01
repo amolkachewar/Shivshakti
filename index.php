@@ -10,19 +10,20 @@
 				  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 				  <li data-target="#myCarousel" data-slide-to="1"></li>
 				  <li data-target="#myCarousel" data-slide-to="2"></li>
+				  <li data-target="#myCarousel" data-slide-to="3"></li>
 				</ol>
 
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner">
 				   <div class="item active">
-					<img src="images/slider4.jpg" alt="PMKVY" style="width:100%;height:auto;">
-				  </div> 	
-				  <!--<div class="item active">
-					<img src="images/slider3.jpg" alt="PMKVY" style="width:100%;height:auto;">
-				  </div> -->
+					<img src="images/banner3-new.jpg" alt="PMKVY" style="width:100%;height:auto;">
+				  </div> 					  
 				  <div class="item">
 					<img src="images/slide2.png" alt="slider1" style="width:100%;height:auto;">
-				  </div>     
+				  </div>    
+				  <div class="item">
+					<img src="images/slider4.jpg" alt="PMKVY" style="width:100%;height:auto;">
+				  </div>  	
 				  <div class="item">
 					<img src="images/slide1.png" alt="slider2" style="width:100%;height:auto;">
 				  </div>

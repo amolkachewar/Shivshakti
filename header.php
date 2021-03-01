@@ -57,8 +57,8 @@
 </head>
 
 <body>
-  <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top topbar-transparent" style="background-image:url('images/banner2.gif') !important;height: 24px;">
+  <!-- ======= Top Bar =======  -->
+  <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top topbar-transparent" style="background-image:url('images/top-back.png') !important;height: 24px;">
     <div class="container">	
 		<div class="contact" style="float:left;">
 			<a href="tel:+0712-2705331"><i class="fa fa-phone" aria-hidden="true"> 0712-2705331</i></a>      
@@ -75,7 +75,7 @@
 
   <!-- ======= Header ======= -->
 
- <header id="header" class="fixed-top header-transparent" style="background-color:#ffffff;">
+ <header id="header" class="fixed-top header-transparent" style="background-image: url(images/header-banner.png);">
 
 
   	<div class="container d-flex align-items-center">

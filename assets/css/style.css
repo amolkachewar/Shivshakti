@@ -166,6 +166,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 20px;
   padding-left:20px;
   text-align:left;
+  border-bottom: 2px solid #fff !important;
 }
 
 #header.header-transparent {
@@ -232,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #413e66;
+  color: #ffffff;
   padding: 10px 0;
   transition: 0.3s;
   font-size: 14px;
