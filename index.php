@@ -17,10 +17,10 @@
 				<div class="carousel-inner">
 				   <div class="item active">
 					<img src="images/banner3-new.jpg" alt="PMKVY" style="width:100%;height:auto;">
-				  </div> 					  
+				  </div>				  
 				  <div class="item">
 					<img src="images/slide2.png" alt="slider1" style="width:100%;height:auto;">
-				  </div>    
+				  </div>
 				  <div class="item">
 					<img src="images/slider4.jpg" alt="PMKVY" style="width:100%;height:auto;">
 				  </div>  	
