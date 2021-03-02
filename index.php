@@ -65,20 +65,19 @@
         <div class="row">
 
           <div class="col-lg-5 col-md-6">
-            <div class="images/skill.jpg" data-aos="fade-right" data-aos-delay="100">
+            <div class="home-about" data-aos="fade-right" data-aos-delay="100">
               <img src="images/skill.jpg" width="400" height="400">
-
             </div>
           </div><meta name="viewport" content="width=device-width, initial-scale=1">
           <div class="col-lg-7 col-md-6">
             <div class="about-content" data-aos="fade-left" data-aos-delay="100">
-             <h2><b><u>About Us :</u></b></h2>
-              <p><b>Shri Shiv Shakti Education Society (SSSES)</b>, founded in 1982, is a non-profit organisation dedicated to Education, sustainable livelihoods, Empowerment and Enlightenment of youth through knowledge, innovation and transformative actions. Our passion is to bring about solutions at a scale that eliminate inequities and marginalization and poverty.</p>
+             <h2><b><u>About Us :</u></b></h2><br />
+              <p style="text-align:justify;"><b>Shri Shiv Shakti Education Society (SSSES)</b>, founded in 1982, is a non-profit organisation dedicated to Education, sustainable livelihoods, Empowerment and Enlightenment of youth through knowledge, innovation and transformative actions. Our passion is to bring about solutions at a scale that eliminate inequities and marginalization and poverty.</p>
 
-              <p>Our core competence is End to End solution from providing excellence education to get the employment. towards this, we develop market-based models of development building on community strengths and involved in the field of training, capacity building of youth, mobilization of community, women empowerment, CSR, Awareness progress. SSSES has achieved the prestigious opportunity to work with ministry of finance, Skill development & Entreprenourship and GoI.</p>
+              <p style="text-align:justify;">Our core competence is End to End solution from providing excellence education to get the employment. towards this, we develop market-based models of development building on community strengths and involved in the field of training, capacity building of youth, mobilization of community, women empowerment, CSR, Awareness progress. SSSES has achieved the prestigious opportunity to work with ministry of finance, Skill development & Entreprenourship and GoI.</p>
                
             <!-- <p> <span id= "more"> SSSES has active in 18 state and UT's have successfully established our presence within the states through various programms and projects. As one of the leading NGOs in the Education sector in India that works for transforming youth to empower nation. we strongly believe that the nation’s strength and future lies in the hands of its youth. Unlike the developed countries where 90% youth opt for some or the other sort of vocational training, less than 5% undergo vocational training in our country despite the fact that India is a country with the largest youth population.</span></p>-->
-             <button> <a href="http://localhost/project/ShriShiv-ShaktiEdu111/aboutus.php">Read more</a></button>
+              <a href="http://localhost/project/ShriShiv-ShaktiEdu111/aboutus.php"><button type="button" style="background-color:orange;color:#ffffff;font-weight:700;padding:5px;"><i class="fa fa-book" aria-hidden="true"></i> Read more</button></a>
             </div>
 
           </div>
@@ -92,13 +91,11 @@
 
     <!-- ======= Services Section ======= -->
     <section id=" Our Projects" class="projects section-bg">
-      <div class="container" data-aos="fade-up">
+      <div class="container" data-aos="fade-up" style="padding-bottom:40px">
 
-        <header class="projects-header">
-
-        	<h3><b><i><u> Our Projects :</u><i></b></h3>
-
-          <p>These are our project :</p>
+        <header class="section-header">
+			<h3><b>Our Projects</b></h3>
+          <p>These are our project </p>
         </header>
         <img src="images/pmmmm.jpg" width="250" height="200">
         <img src="images/ele.png" width="250" height="200">
@@ -156,24 +153,19 @@
 
         <header class="section-header">
           <h3><b>Why choose us?</b></h3>
-         
+         <p><b>We Provide training on skills.<b></p>
         </header>
 
         <div class="row">
-
           <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="why-us-img">
               <img src="assets/img/why-us.jpg" alt="" class="img-fluid" height="700" width="1000"><br>
-
-
               <img src="images/interactiveclass.jpg" alt="" class="img-fluid" height="700" width="1000">
-
             </div>
           </div>
 
           <div class="col-lg-6">
-            <div class="why-us-content">
-              <p><b>We Provide training on skills.<b></p>
+            <div class="why-us-content">              
                 <p> We "Shree Shivshakti Education Society" work with Pmkvy (pradhan mantri) as a Training Partner.
                 <u> Pradhan Mantri Kaushal Vikas yojana </u>is a skill development initiative scheme 
                 of the Government of India for recognition and standardisation of skills.
@@ -300,7 +292,7 @@
     </section><!-- End Features Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <section id="portfolio" class="portfolio" style="background-image: url(images/banner2.gif);">
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
