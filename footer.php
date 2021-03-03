@@ -13,13 +13,13 @@
               <div class="col-sm-6">
 
                 <div class="footer-info">
-                  <h3><b>Shree Shivshakti Educational Society</b></h3>
-                  <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                  <h3><b>Shree Shivshakti Education Society</b></h3>
+                  <p style="text-align:justify;">SSSES founded in 1982, is a non-profit organisation dedicated to Education, sustainable livelihoods, Empowerment and Enlightenment of youth through knowledge, innovation and transformative actions.</p>
                 </div>
 
                 <div class="footer-newsletter">
                   <h4>Our Newsletter</h4>
-                  <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem.</p>
+                  <p>Stay updated with the latest news & events!</p>
                   <form action="" method="post">
                     <input type="email" name="email"><input type="submit" value="Subscribe">
                   </form>
@@ -53,7 +53,7 @@
 
                 <div class="social-links">
                   <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>  
                   <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
                   <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
                 </div>
@@ -69,9 +69,9 @@
             <div class="form">
 
               <h4>Send us a message</h4>
-              <p>SSES(shree shivshakti education society) </p>
+              <p>SSES (Shree Shiv Shakti Education Society) </p>
 
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form"> 
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validate"></div>

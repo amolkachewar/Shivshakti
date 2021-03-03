@@ -13,7 +13,7 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
   <!-- Favicons -->
-  <link href="ShriShiv-ShaktiEdu/assets/favicon.png" rel="icon">
+  <link href="ShriShiv-ShaktiEdu/assets/mainlogo.png" rel="icon">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
   <!-- Vendor CSS Files -->
@@ -56,8 +56,8 @@
 </head>
 
 <body>
-  <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top topbar-transparent" style="background-image:url('images/banner2.gif') !important;height: 24px;">
+  <!-- ======= Top Bar =======  -->
+  <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top topbar-transparent" style="background-image:url('images/top-back.png') !important;height: 24px;">
     <div class="container">	
 		<div class="contact" style="float:left;">
 			<a href="tel:+0712-2705331"><i class="fa fa-phone" aria-hidden="true"> 0712-2705331</i></a>      
@@ -73,7 +73,7 @@
   </div>
 <!-- ======= Header ======= -->
 
- <header id="header" class="fixed-top header-transparent" style="background-color:white;font-color:black; height:160 width:1000">
+ <header id="header" class="fixed-top header-transparent" style="background-image: url(images/header-banner.png);">
 
 
   	<div class="container d-flex align-items-center">
@@ -138,7 +138,7 @@
               <li><a href="#">FCRA updates</a></li>
               <li><a href="#">Newsletter</a></li>
            </ul></li>
-          <li class="drop-down"><b><a href="aboutus.php"><strong>About Us</strong></a></b>
+          <li class="drop-down"><b><a href="about-us.php"><strong>About Us</strong></a></b>
            <ul>
                <li><a href="index.php">Organization</a></li>
               <li><a href="index.php">Objective</a></li>

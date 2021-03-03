@@ -48,7 +48,7 @@ font-weight:800;
         <div class="contanier" style="font-size:40;">
 			<div class="row">
 				<div class="col-lg-4">
-					<img src="about_us.png" class="about-images">
+					<img src="images/skill.jpg" class="about-images">
 				</div>
 				<div class="col-lg-8">        	
 					<p class="para">

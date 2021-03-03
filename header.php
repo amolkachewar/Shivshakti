@@ -14,7 +14,8 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
   <!-- Favicons -->
-  <link href="ShriShiv-ShaktiEdu/assets/favicon.png" rel="icon">
+  <link href="ShriShiv-ShaktiEdu/assets/mainlogo.png" rel="icon">
+  
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
   <!-- Vendor CSS Files -->
@@ -26,10 +27,9 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
 	#header .logo {		  
 		   margin-bottom: -35px;
@@ -52,6 +52,25 @@
 		}
 		.header-scrolled{
 			top:-20px !important;
+		}
+		#skill-mission {
+		  padding: 60px 0;
+		}
+		#skill-mission .counters span {
+		  font-family: "Montserrat", sans-serif;
+		  font-weight: bold;
+		  font-size: 30px;
+		  display: block;
+		  padding-top:30px;
+		  padding-bottom:10px;
+		  color: #555186;
+		}
+		#skill-mission .counters p {
+		  padding: 0;
+		  margin: 0 0 20px 0;
+		  font-family: "Montserrat", sans-serif;
+		  font-size: 14px;
+		  color: #8a87b6;
 		}
   </style>
 </head>

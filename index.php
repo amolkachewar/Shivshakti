@@ -204,34 +204,61 @@
         </div>
 
       </div>
-
+	</section><!-- End Why Us Section -->
+	<section id="skill-mission" class="skill-mission">
       <div class="container">
+	  <header class="section-header">
+          <h3><b>Skill Development Mission</b></h3>
+         <p><b>Transforming People. Impacting Organizations<b></p>
+        </header>
         <div class="row counters" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-3 col-6 text-center">
+			<div class="col-md-1">
+			</div>
+          <div class="col-lg-2 col-6 text-center">
+			  <div class="image-box">
+				<img src="images/center.png" alt="training centers" width="90" height="90">
+			  </div>
             <span data-toggle="counter-up">274</span>
-            <p>Clients</p>
+            <p>Training Centers</p>
           </div>
 
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">421</span>
-            <p>Projects</p>
+          <div class="col-lg-2 col-6 text-center">
+			<div class="image-box">
+				<img src="images/ICON_2.png" alt="training centers" width="90" height="90">
+			  </div>
+            <span data-toggle="counter-up">12000</span>
+            <p>Students Enrolled</p>
           </div>
 
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">1,364</span>
-            <p>Hours Of Support</p>
+          <div class="col-lg-2 col-6 text-center">
+			<div class="image-box">
+				<img src="images/ICON_3.png" alt="training centers" width="90" height="90">
+			  </div>
+            <span data-toggle="counter-up">1,100</span>
+            <p>Students Trained</p>
           </div>
 
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">18</span>
-            <p>Hard Workers</p>
+          <div class="col-lg-2 col-6 text-center">
+			<div class="image-box">
+				<img src="images/ICON_4.png" alt="training centers" width="90" height="90">
+			  </div>
+            <span data-toggle="counter-up">1050</span>
+            <p>Students Certified</p>
           </div>
+		  <div class="col-lg-2 col-6 text-center">
+			<div class="image-box">
+				<img src="images/ICON_5.png" alt="training centers" width="90" height="90">
+			  </div>
+            <span data-toggle="counter-up">900</span>
+            <p>Students Placed</p>
+          </div>
+		  <div class="col-md-1">
+		  </div>
 
         </div>
 
       </div>
-    </section><!-- End Why Us Section -->
+    </section>
 
     <!-- ======= Call To Action Section ======= -->
     <section id="call-to-action" class="call-to-action">
@@ -501,7 +528,7 @@
     </section><!-- End Testimonials Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
+    <section id="team" class="team section-bg" style="background-image:url('images/banner2.gif');">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h3>Team</h3>
@@ -588,22 +615,21 @@
     </section><!-- End Team Section -->
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients" style="background-image:url('images/banner2.gif');">
+    <section id="clients" class="clients" style="background-color:#f1f1f1;">
       <div class="container" data-aos="zoom-in">
 
         <header class="section-header">
-          <h3>Our Clients</h3>
+          <h3>Government Affiliations</h3>
         </header>
 
         <div class="owl-carousel clients-carousel">
-          <img src="assets/img/clients/client-1.png" alt="">
-          <img src="assets/img/clients/client-2.png" alt="">
-          <img src="assets/img/clients/client-3.png" alt="">
-          <img src="assets/img/clients/client-4.png" alt="">
-          <img src="assets/img/clients/client-5.png" alt="">
-          <img src="assets/img/clients/client-6.png" alt="">
-          <img src="assets/img/clients/client-7.png" alt="">
-          <img src="assets/img/clients/client-8.png" alt="">
+          <img src="images/gov-affiliation/3500nsdc..1.png" alt="">
+          <img src="images/gov-affiliation/3759skill..2.png" alt="">
+          <img src="images/gov-affiliation/10479essci..1.png" alt="">
+          <img src="images/gov-affiliation/22773telecom..3.png" alt="">
+          <img src="images/gov-affiliation/16135ASCI..1.png" alt="">
+          <img src="images/gov-affiliation/17119mepsc..2.png" alt="">
+          <img src="images/gov-affiliation/15002it-ites..1.png" alt="">          
         </div>
 
       </div>
