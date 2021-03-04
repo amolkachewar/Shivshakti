@@ -40,7 +40,7 @@ img.trainingeducation {
     <div class="container tab-container ">
         <div class="row">
             <div class="col-lg-3">
-              <img src="images/vocational.jpg" class="trainingeducation" style="height:900;">
+              <img src="images/corporate.jpg" class="trainingeducation" style="height:900;">
             </div>
             <div class="col-lg-8">
                 <div class="panel panel-info">
@@ -75,19 +75,19 @@ img.trainingeducation {
                  <div class="row">
                      <div class="col-lg-4">
                     <div class="global-div">
-                      <a><img src="img1.png" alt="Shiv Shakti Education Society" class="img-thumbnail gal-img" width="200" height="300"> </a>
+                      <a><img src="images/galleryimg.jpg" alt="Shiv Shakti Education Society" class="img-thumbnail gal-img" width="200" height="300"> </a>
                        
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="global-div">
-                        <a><img src="img2.png" alt="Shiv Shakti Education Society" class="img-thumbnail gal-img"width="200" height="300"> </a>
+                        <a><img src="images/galleryimg1.jpg" alt="Shiv Shakti Education Society" class="img-thumbnail gal-img"width="200" height="300"> </a>
                         
                     </div>
                 </div>
                  <div class="col-lg-4">
                     <div class="global-div">
-                        <a><img src="img3.png" alt="Shiv Shakti Education Society" class="img-thumbnail gal-img"> </a>
+                        <a><img src="images/galleryimg1.jpg" alt="Shiv Shakti Education Society" class="img-thumbnail gal-img"> </a>
                         
                     </div>
                 </div>           
@@ -99,8 +99,7 @@ img.trainingeducation {
 
 <!-- end vocational training and education start here -->
 
-
-
  <!-- footer -->
             <?php include "footer.php"; ?>
             <!-- End footer-->        </div>
+

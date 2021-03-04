@@ -44,7 +44,7 @@
 			height: 700px !important;
 		}
 		#hero img{
-			padding-top:100px !important;
+			padding-top:125px !important;
 			height:700px !important;
 		}
 		#topbar a{
@@ -71,6 +71,10 @@
 		  font-family: "Montserrat", sans-serif;
 		  font-size: 14px;
 		  color: #8a87b6;
+		}
+		.nav-justified>li {
+			display: table-cell !important;
+			width: 49% !important;
 		}
   </style>
 </head>
@@ -127,8 +131,8 @@
  
               </ul>
          </li>      
-        <li class="active"><a href="#Placement Tracking"><strong>Placement Tracking</strong></a></li>
-      <!--  <li class="active"><a href="place.html">placement</a></li>-->
+        <li class="active"><a href="placement_tracking.php"><strong>Placement Tracking</strong></a></li>
+      <!--  <li class="active"><a href="place.php">placement</a></li>-->
          <li class="drop-down"><b><a href="place.php"><strong>Placement</strong></a></b>
          <ul>
                <li><a href="#">Job Portal</a></li>

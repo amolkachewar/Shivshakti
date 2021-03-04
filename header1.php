@@ -43,7 +43,7 @@
 			height: 700px !important;
 		}
 		#hero img{
-			padding-top:100px !important;
+			padding-top:125px !important;
 			height:700px !important;
 		}
 		#topbar a{
@@ -51,6 +51,29 @@
 		}
 		.header-scrolled{
 			top:-20px !important;
+		}
+		#skill-mission {
+		  padding: 60px 0;
+		}
+		#skill-mission .counters span {
+		  font-family: "Montserrat", sans-serif;
+		  font-weight: bold;
+		  font-size: 30px;
+		  display: block;
+		  padding-top:30px;
+		  padding-bottom:10px;
+		  color: #555186;
+		}
+		#skill-mission .counters p {
+		  padding: 0;
+		  margin: 0 0 20px 0;
+		  font-family: "Montserrat", sans-serif;
+		  font-size: 14px;
+		  color: #8a87b6;
+		}
+		.nav-justified>li {
+			display: table-cell;
+			width: 49%;
 		}
   </style>
 </head>
@@ -89,9 +112,9 @@
          <li class="drop-down"><b><a href="#projects">projects</a></b>
             <ul>
                 <!--  <li><a href="#">Skill development</a></li>-->
-                  <li class="drop-down"><b><a href="#Skill development"><strong>Skill development</strong></a></b>
+                  <li class="drop-down"><b><a href="skill_development.php"><strong>Skill development</strong></a></b>
                      <ul>
-                      <li><a href="#">PMKVY</a></li>
+                      <li><a href="project.php">PMKVY</a></li>
                       <li><a href="#">RPL</a></li>
                       <li><a href="#">ESDM</a></li>
                       <li><a href="#">PMGDISHA</a></li>

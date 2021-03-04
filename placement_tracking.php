@@ -58,7 +58,7 @@
     </head>
     <body>
         <div class="header">
-            <img src="abcd.png" style="height:80px;"></img>
+            <img src="images/abcd.png" style="height:80px;"></img>
             <strong style="line-height:2.5em;color:green;font-size:35px;"><b>SHRI SHIV SHAKTI EDUCATION SOCIETY</b>
                 : Placement Track</strong>
             <a href="index.php" style="text-decoration:none;line-height:2.5em">Go To Website</a>
