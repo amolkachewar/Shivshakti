@@ -114,21 +114,22 @@
                 <!--  <li><a href="#">Skill development</a></li>-->
                   <li class="drop-down"><b><a href="skill_development.php"><strong>Skill development</strong></a></b>
                      <ul>
-                      <li><a href="project.php">PMKVY</a></li>
-                      <li><a href="#">RPL</a></li>
-                      <li><a href="#">ESDM</a></li>
-                      <li><a href="#">PMGDISHA</a></li>
-                      <li><a href="#">DDU-KVY</a></li>
-                      <li><a href="#">MSSDS</a></li>
-                      <li><a href="#">NULM</a></li>
-                      <li><a href="#">NSQF</a></li>
+                       <li><a href="pmkvy.php">PMKVY</a></li>
+                      <li><a href="skill_rpl.php">RPL</a></li>
+                      <li><a href="esdm.php">ESDM</a></li>
+                      <li><a href="skill_PMGDISHA.php">PMGDISHA</a></li>
+                      <li><a href="skill_DDUGKY.php">DDU-GKY</a></li>
+                      <li><a href="skill_MSSDS.php">MSSDS</a></li>
+                      <li><a href="skill_NULM.php">NULM</a></li>
+                      <li><a href="index.php">NSQF</a></li>
                     </ul></li>
-                  <li><a href="#">Vocational and Educational Training</a></li>
-                  <li><a href="#">School and college skilling program</a></li>
-                  <li><a href="#">Corporate Training</a></li>
-                  <li><a href="#">CSR Project</a></li>
-                  <li><a href="#">Competative Exam and Preparation</a></li>
-                  <li><a href="#">Carrier Guidance Center</a></li>
+                   <li><a href="vocation.php">Vocational and Educational Training</a></li>
+                  <li><a href="training_skilling.php">School and college skilling program</a></li>
+                  <li><a href="corporate_traning.php">Corporate Training</a></li>
+                  <li><a href="csr_project.php">CSR Project</a></li>
+                  <li><a href="competative_pre.php">Competative Exam and Preparation</a></li>
+                  <li><a href="index.php">Carrier Guidance Center</a></li>
+ 
  
               </ul>
          </li>
@@ -142,21 +143,27 @@
   </select>
   <br><br>
          </form>-->
-        <li class="active"><a href="#Placement Tracking"><strong>Placement Tracking</strong></a></li>
+       <!--<li class="active"><a href="#Placement Tracking"><strong>Placement Tracking</strong></a></li>
       <!--  <li class="active"><a href="place.html">placement</a></li>-->
          <li class="drop-down"><b><a href="place.php"><strong>Placement</strong></a></b>
          <ul>
-               <li><a href="#">Job Portal</a></li>
+               <li><a href="index.php">Job Portal</a></li>
                <li><a href="placement_methodology.php">Placement Methodology</a></li>
-               <li><a href="#">Placement Drive</a></li>
-               <li><a href="#">Placement Report</a></li>
-               <li><a href="#">Current Opportunity</a></li>
-               <li><a href="#">Testimonials</a></li>
+               <li><a href="index.php">Placement Drive</a></li>
+               <li><a href="index.php">Placement Report</a></li>
+               <li><a href="index.php">Current Opportunity</a></li>
+               <li><a href="index.php">Testimonials</a></li>
          </ul></li>
        <!--   <li><a href="#placement">Placement</a></li>-->
-          <li class="drop-down"><b><a href="#Resource"><strong>Resource</strong></a></b>
-          <ul>
-               <li><a href="gallery.php">Gallery</a></li>
+         
+		 <li class="drop-down"><b><a href="media"><strong>Media</strong></a></b>
+		 <ul>
+		     <li><a href="gallery.php">Gallery</a></li>
+			   <li><a href="news_artical.php">news & Articals</a></li>
+          </ul>
+		  </li>
+		    
+              <!-- <li><a href="gallery.php">Gallery</a></li>
               <li><a href="#">News articles</a></li>
               <li><a href="#">FCRA updates</a></li>
               <li><a href="#">Newsletter</a></li>
@@ -167,15 +174,11 @@
               <li><a href="index.php">Objective</a></li>
            </ul></li>
          <!-- <li><a href="Contact">Contact</a></li>-->
-          <li class="active"><a href="contact.php"><strong>Contact</strong></a></li>
-          <li class="drop-down"><b><a href="CSR Partnership"><strong>CSR Partnership</strong></a></b>
-            <ul>
-               <li><a href="#">Our Partner</a></li>
-              <li><a href="#">Our Program</a></li>
-              <li><a href="#">Cause related marketing</a></li>
-              <li><a href="#">Payroll giving</a></li>
-               <li><a href="#">Employee Volunteering</a></li>
-           </ul></li>
+          <li class="active"><a href="associate.php"><strong>Associate With Us</strong></a></li>
+          <li class="active"><b><a href="about-us.php"><strong>About Us</strong></a></b>
+                      </li>
+				  <li class="active"><a href="contact.php"><strong>Contact</strong></a></li>	  
+				    <li class="active"><a href="index.php"><strong>Follow-Us</strong></a></li>	
               <!--<li><a href="Donate">Donate</a></li>
           <li><a href="Login">Login</a></li>-->
            </ul>

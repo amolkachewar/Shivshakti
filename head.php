@@ -42,7 +42,7 @@
     <!-- <h1 class="logo mr-auto"><a href="index.html"><img src="abcd.png" alt="Logo" width="120" height="100" img-right; ></a></h1><br>
     <!-Uncomment below if you prefer to use an image logo -->
     <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-   <img src="abcd.png" align="align-items-center" width="100" height="100">
+   <img src="images/abcd.png" align="align-items-center" width="100" height="100">
       <nav class="main-nav d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.php">Home</a></li>
