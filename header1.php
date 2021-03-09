@@ -145,7 +145,7 @@
          </form>-->
        <!--<li class="active"><a href="#Placement Tracking"><strong>Placement Tracking</strong></a></li>
       <!--  <li class="active"><a href="place.html">placement</a></li>-->
-         <li class="drop-down"><b><a href="place.php"><strong>Placement</strong></a></b>
+         <li class="drop-down"><b><a href="#"><strong>Placement</strong></a></b>
          <ul>
                <li><a href="index.php">Job Portal</a></li>
                <li><a href="placement_methodology.php">Placement Methodology</a></li>

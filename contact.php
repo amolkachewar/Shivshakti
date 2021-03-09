@@ -4,18 +4,18 @@
 
               <!---section of contact--->
 
-      <section id="contact" style="margin-top:11%;background-color:#8c7373;">
-        <div class="container" style="background-image:url('images/cont.jpg');height:700;">
-                <div class="row" >
-                    <div class="about_our_company" style="margin-bottom:100px;>
-                        <h1 style="color:#fff;">Write Your Message</h1>
-                        <div class="titleline-icon"></div>
-                        <p style="color:#fff;text-align:center;"><b>Contact Us</b></p>
+      <section id="contact" style="margin-top:10%;background-image:url('images/cont.jpg');height:350px;background-repeat:no-repeat;background-size: 100% 100%;
+    background-position: right;">
+        <div class="container">
+                <div class="row">
+                    <div class="about_our_company" style="margin-bottom:20px;">                        
+                        <h2 style="color:#fff;text-align:center;"><b>Contact Us</b></h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-8">					
                         <form name="sentMessage" id="contactForm" novalidate="" method="POST">
+						<p style="color:#fff;">Write Your Message</p>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
@@ -38,7 +38,7 @@
                                 <div class="col-lg-12 text-center">
                                     <div id="success"></div>
                                     <link rel="stylesheet" type="text/css" href="contact.php">
-                                    <button type="submit" class="btn btn-xl get" onclick="contact.php" name="submit">Send Message</button>
+                                    <button type="submit" class="btn btn-primary" onclick="contact.php" name="submit">Send Message</button>
                                 </div>
                             </div>
                         </form>

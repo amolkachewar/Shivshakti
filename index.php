@@ -77,7 +77,7 @@
               <p style="text-align:justify;">Our core competence is End to End solution from providing excellence education to get the employment. towards this, we develop market-based models of development building on community strengths and involved in the field of training, capacity building of youth, mobilization of community, women empowerment, CSR, Awareness progress. SSSES has achieved the prestigious opportunity to work with ministry of finance, Skill development & Entreprenourship and GoI.</p>
                
             <!-- <p> <span id= "more"> SSSES has active in 18 state and UT's have successfully established our presence within the states through various programms and projects. As one of the leading NGOs in the Education sector in India that works for transforming youth to empower nation. we strongly believe that the nation’s strength and future lies in the hands of its youth. Unlike the developed countries where 90% youth opt for some or the other sort of vocational training, less than 5% undergo vocational training in our country despite the fact that India is a country with the largest youth population.</span></p>-->
-              <a href="http://localhost/project/ShriShiv-ShaktiEdu111/aboutus.php"><button type="button" style="background-color:orange;color:#ffffff;font-weight:700;padding:5px;"><i class="fa fa-book" aria-hidden="true"></i> Read more</button></a>
+              <a href="about-us.php"><button type="button" style="background-color:orange;color:#ffffff;font-weight:700;padding:5px;"><i class="fa fa-book" aria-hidden="true"></i> Read more</button></a>
             </div>
 
           </div>
@@ -269,7 +269,7 @@
             <p class="cta-text"> If you have any query regarding to our <b><u> Shree Shivshakti Educational Society</u></b> please contact us for further details :</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="contact.php">Call To Action</a>
           </div>
         </div>
 
